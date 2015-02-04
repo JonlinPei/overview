@@ -13,6 +13,8 @@
 		FC32DC601A807C4100F13028 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC32DC5F1A807C4100F13028 /* Images.xcassets */; };
 		FC32DC631A807C4100F13028 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC32DC611A807C4100F13028 /* LaunchScreen.xib */; };
 		FC32DC6F1A807C4100F13028 /* overviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DC6E1A807C4100F13028 /* overviewTests.swift */; };
+		FC32DC791A80833A00F13028 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DC781A80833A00F13028 /* SettingsViewController.swift */; };
+		FC32DC7B1A808EFC00F13028 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DC7A1A808EFC00F13028 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FC32DC681A807C4100F13028 /* overviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = overviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC32DC6D1A807C4100F13028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC32DC6E1A807C4100F13028 /* overviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overviewTests.swift; sourceTree = "<group>"; };
+		FC32DC781A80833A00F13028 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FC32DC7A1A808EFC00F13028 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				FC32DC581A807C4100F13028 /* AppDelegate.swift */,
 				FC32DC5A1A807C4100F13028 /* ViewController.swift */,
 				FC32DC5C1A807C4100F13028 /* Main.storyboard */,
+				FC32DC7A1A808EFC00F13028 /* HomeViewController.swift */,
 				FC32DC5F1A807C4100F13028 /* Images.xcassets */,
 				FC32DC611A807C4100F13028 /* LaunchScreen.xib */,
 				FC32DC561A807C4100F13028 /* Supporting Files */,
+				FC32DC781A80833A00F13028 /* SettingsViewController.swift */,
 			);
 			path = overview;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				FC32DC5B1A807C4100F13028 /* ViewController.swift in Sources */,
 				FC32DC591A807C4100F13028 /* AppDelegate.swift in Sources */,
+				FC32DC791A80833A00F13028 /* SettingsViewController.swift in Sources */,
+				FC32DC7B1A808EFC00F13028 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				FC32DC741A807C4100F13028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC32DC751A807C4100F13028 /* Build configuration list for PBXNativeTarget "overviewTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				FC32DC771A807C4100F13028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
